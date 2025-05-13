@@ -1,0 +1,10 @@
+.footerMainDiv {
+  background-color: #0f172a;
+  padding: 1.5%;
+  color: rgb(156, 163, 175);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

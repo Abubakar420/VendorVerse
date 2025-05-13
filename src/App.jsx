@@ -1,7 +1,7 @@
 // Init
 import React from 'react';
 import { ToastContainer, Flip } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css'; // Make sure this line is included
 
 // Files
 import Index from './routes/index';

@@ -1,4 +1,71 @@
 /* Header Component Style */
-h1 {
-  color: red;
+.MainHeaderDiv {
+  /* background-color: #11172D; */
+  background-color: rgba(14, 22, 48, 0.856);
+  backdrop-filter: blur(10px); /* blur effect behind the header */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+.HeaderSubDiv {
+  width: 72%;
+  padding: 1.1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderIconDiv {
+  width: 35%;
+  display: flex;
+  gap: 10px;
+}
+
+.HeaderPagesDiv {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.HeaderPagesDiv h1 {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #c5c9d1;
+  font-weight: 600;
+}
+
+.homeIconDiv {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  padding: 8px;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.homeIconDiv:hover {
+  background-color: #381a65;
+}
+
+.homeIconDiv .HomeIconsHeader {
+  font-size: 24px;
+}
+
+.HeaderIconDiv h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  background: linear-gradient(to right, #c181f8, #ef4449);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }
